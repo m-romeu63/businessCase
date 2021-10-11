@@ -1,6 +1,3 @@
-<?php 
-include 'functions/tools.php'; ?>
-
 <!DOCTYPE html>
 <html>
 
@@ -19,7 +16,7 @@ include 'functions/tools.php'; ?>
     <header>
         <?php include 'include/header.php'; ?>
     </header>
-    <main>
+    <main style="background-image: url(src/—Pngtree—black_bear_paw_prints_6083126.png); background-position: cover;">
         <?php include 'include/carousel.php'; ?>
         <?php include 'include/promotions.php'; ?>
         <div id="about-us" class="row my-3 sections">
