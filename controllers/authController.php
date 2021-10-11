@@ -7,14 +7,14 @@ if(!empty($_POST['connect'])):
         $errMsg = 'Les identifiants sont incorrects.';
     endif;
 
-    if(!empty($_POST['password'])):
+    if(empty($_POST['password'])):
         $errMsg = 'Les identifiants sont incorrects.';
     endif;
 endif;
 
 if (empty($errMsg) && !empty($_POST['connect'])):
     $_SESSION['user'] = $_POST['email'];
-    //header('Location:index.php?action=homepage');
+    header('Location:index.php?action=homepage');
 endif;
 
 if (empty($errMsg) && !empty($_POST['cookie'])):

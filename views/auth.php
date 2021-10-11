@@ -29,7 +29,7 @@
                 <?php endif; ?>
                 <div class="form-group mb-3">
                     <label for="email" class="form-label">Saissisez votre email</label>
-                    <input type="text" name="email" id="email" placeholder="Email" class="form-control">
+                    <input type="email" name="email" id="email" placeholder="Email" class="form-control">
                 </div>
                 <div class="form-group mb-3">
                     <label for="password" class="form-label">Saissisez votre mot de passe</label>
