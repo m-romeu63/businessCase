@@ -16,13 +16,13 @@
     <header>
         <?php include 'include/header.php'; ?>
     </header>
-    <main style="background-image: url(src/—Pngtree—black_bear_paw_prints_6083126.png); background-position: cover;">
+    <main style="background-image: url(assets/src/—Pngtree—black_bear_paw_prints_6083126.png); background-position: cover;">
         <?php include 'include/carousel.php'; ?>
         <?php include 'include/promotions.php'; ?>
         <div id="about-us" class="row my-3 sections">
             <h2 class="text-center">Qui sommes-nous ?</h2>
             <div class="col-lg-6 pe-1" id="illustration-photo">
-                <img src="src/kim-davies-fEK4jvgnApg-unsplash.jpg" alt="photo d'un chaton qui joue" class="img-fluid">
+                <img src="assets/src/kim-davies-fEK4jvgnApg-unsplash.jpg" alt="photo d'un chaton qui joue" class="img-fluid">
             </div>
             <div class="col-lg-6 pe-0">
                 <p>

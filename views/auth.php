@@ -18,7 +18,7 @@
     <header>
         <?php include 'include/header.php'; ?>
     </header>
-    <main style="background-image: url(src/—Pngtree—black_bear_paw_prints_6083126.png); background-position: cover;">
+    <main style="background-image: url(assets/src/—Pngtree—black_bear_paw_prints_6083126.png); background-position: cover;">
         <section class="col-lg-6 mx-auto my-2 auth">
             <form method="post" action="index.php?action=auth">
                 <h4 class="text-center my-2">Vous êtes déjà client à La Nîmes'alerie ? Connectez-vous !</h4>
