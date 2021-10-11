@@ -21,7 +21,12 @@
     <main style="background-image: url(src/—Pngtree—black_bear_paw_prints_6083126.png); background-position: cover;">
         <section class="col-lg-6 mx-auto my-2 auth">
             <form method="post" action="index.php?action=auth">
-                <h4 class="text-center">Vous êtes déjà client à La Nîmes'alerie ? Connectez-vous !</h4>
+                <h4 class="text-center my-2">Vous êtes déjà client à La Nîmes'alerie ? Connectez-vous !</h4>
+                <?php if(!empty($errMsg)): ?>
+                    <p class="alert alert-danger">
+                        <?php echo $errMsg; ?>
+                    </p>
+                <?php endif; ?>
                 <div class="form-group mb-3">
                     <label for="email" class="form-label">Saissisez votre email</label>
                     <input type="text" name="email" id="email" placeholder="Email" class="form-control">
@@ -29,6 +34,10 @@
                 <div class="form-group mb-3">
                     <label for="password" class="form-label">Saissisez votre mot de passe</label>
                     <input type="password" name="password" id="password" placeholder="Mot de passe" class="form-control">
+                </div>
+                <div class="form-check mb-3">
+                    <input type="checkbox" name="cookie" id="cookie" class="form-check-input">
+                    <label for="cookie" class="form-check-label">Se souvenir de moi</label>
                 </div>
                 <div class="form-group mb-3">
                     <input type="submit" name="connect" id="connect" class="btn btn-dark mx-auto" value="Je me connecte">
