@@ -1,0 +1,96 @@
+body{
+    background-color: #f0f4ff;
+    color: #2D2D2E;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#cover{
+    max-height: 250px;
+}
+
+.sections {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+main {
+    background-image: url(pngtree—black-bear-paw-prints_6083126.png);
+    background-position: cover;
+}
+
+a{
+    text-decoration: none;
+    color: #2D2D2E;
+}
+
+a:hover{
+    color: #7A41C1;
+}
+
+.carousel-item div{
+    max-height: 300px;
+}
+
+#img-card{
+    max-height: 250px;
+}
+
+#avis img{
+    max-width: 75px;
+    font-weight: normal;
+}
+
+.avis{
+    border: 0.5px black solid;
+    border-radius: 15px;
+}
+
+footer{
+    background-color: #293246b7;
+    backdrop-filter: blur(2px);
+    color: white;
+}
+
+#reseaux img{
+    max-width: 30px;
+}
+
+#reseaux a{
+    text-decoration: none;
+}
+
+#reseaux p{
+    text-align: center;
+}
+
+#paiement{
+    text-align: center;
+}
+
+#paiement img{
+    max-width: 100px;
+}
+
+#livraison img{
+    max-height: 50px;
+}
+
+#livraison{
+    text-align: center;
+}
+
+#contact{
+    text-align: center;
+}
+
+#contact li{
+    list-style-type: none;
+}
+
+#contact a{
+    text-decoration: none;
+    color: white;
+}
+
+#contact a:hover{
+    color: #7A41C1;
+}
